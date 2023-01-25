@@ -1,0 +1,164 @@
+/*CSS Reset*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+body {
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+/*NavBar Styling*/
+.navbar {
+	background-color: #d4a373;
+}
+
+.navbar-nav {
+	color: white;
+
+}
+
+/*Landing Page Styling*/
+.background {
+	min-height: 100vh;
+	background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNDIyLTA4OC14LmpwZw.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+.profile-image {
+	text-align: center;
+	width: 400px;
+	height: 400px;
+}
+
+.header-name {
+	color: #264653;
+	text-align: center;
+}
+
+.header-description {
+	color: #d4a373;
+	text-align: center;
+}
+
+/*Get To Know Page Styling*/
+.get-to-know {
+	min-height: 100vh;
+	background-color: #d5bdaf;
+	color: #f1faee;
+
+}
+
+.header-get {
+	color: #bc6c25;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.carousel-item {
+	height: 500px;
+	color: #264653;
+	object-fit: contain;
+}
+
+.carousel-indicators {
+	position: flex;
+}
+
+.carousel-caption {
+	position: flex;
+}
+
+/*Projects Page Styling*/
+.projects {
+	background-color: #E4C4A5;
+}
+
+.header-proj {
+	color: #2f3e46;
+	font-weight: bolder;
+}
+
+.card {
+	background-color: #d5bdaf;
+	margin: 15px;
+	padding: 5px;
+	display: flex;
+}
+.card-title {
+	color: white;
+	font-weight: bolder;
+}
+
+.card-text {
+	color: black;
+}
+
+/*Let's Connect Page Styling*/
+.connect {
+	background-color: #fefae0;
+}
+
+.header-connect {
+	color: #E4C4A5;
+	font-weight: bolder;
+}
+
+.card-link {
+	text-align: center;
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+.card-body1 {
+	width: 150px;
+	text-align: center;
+}
+
+.card1 {
+	background-color: #fefae0;
+}
+
+.form-group {
+	background-color: #fefae0;
+	color: black;
+	width: flex;
+}
+
+.form1 {
+	color: #d5bdaf ;
+	font-weight: bolder;
+	font-size: 24px;
+}
+
+.maps1 {
+	color: #d5bdaf ;
+	font-weight: bolder;
+	font-size: 24px;
+	margin: 2px;
+}
+
+.btn {
+	background-color: rosybrown;
+	color: whitesmoke;
+	padding: 5px;
+	border-color: slategray;
+}
+
+.close {
+	background-color: rosybrown;
+	color: whitesmoke;
+	padding: 5px;
+	border-color: slategray;
+}
+
+/*Footer Styling*/
+.footer {
+	background-color: #d4a373;
+	color: white;
+	display: bottom;
+}
+
